@@ -4,41 +4,39 @@
     <meta charset="utf-8">
   </head>
   <body>
-   <header>
-    <div class="logo">
-      <img src="/barbershop" alt="barbershop_logo">
-    </div>
-    <nav class="main_menu">
-      <ul>
-        <li>Информация</li>
-        <li>Новости</li>
-        <li>Прайс-лист</li>
-        <li>Магазин</li>
-        <li>Контакты</li>
-      </ul>
-    </nav>
-    <a href="#" class="img_exit">
-      <div class="exit">
-        <img src="/img_exit" id="img_exit" alt="->">
-        <span>Выход</span>
-      </div>
-    </a>
-   </header>
+    <header>
+     <a href="#" class="logo">
+       <img src="/barbershop" alt="Логотип" width="112px" height="25px">
+     </a>
+     <nav class="main_menu">
+       <ul>
+       <li><a href="#">Информация</a></li>
+       <li><a href="#">Новости</a></li>
+       <li><a href="#">Прайс-лист</a></li>
+       <li><a href="#">Магазин</a></li>
+       <li><a href="#">Контакты</a></li>
+       </ul>
+     </nav>
+     <a href="#" class="img_exit">
+       <img src="/img_exit" class="img_exit" alt="->"width="18px" height="16px">
+       <span>Выход</span>
+     </a>
+    </header>
    <main>
      <h1>Набор для путешествий "Baxter of California"</h1>
      <nav class="sub_menu">
        <ul>
-         <li>Главная</li>
-         <li>Магазин</li>
-         <li>Средства для ухода</li>
+         <li><a href="#">Главная</a></li>
+         <li><a href="#">Магазин</a></li>
+         <li><a href="#">Средства для ухода</a></li>
          <li>Набор для путешествий "Baxter of California"</li>
        </ul>
      </nav>
      <section class="left_side">
-       <img src="#" class="big_img" alt="Изображение товара">
-       <a href="#"><img src="#" class="small_img" alt="Изображение товара"></a>
-       <a href="#"> <img src="#" class="small_img" alt="Изображение товара"></a>
-       <a href="#"><img src="#" class="small_img" alt="Изображение товара"></a>
+       <img src="#" class="big_img" alt="Изображение товара" width="460px" height="498px">
+       <a href="#"><img src="#" class="small_img" alt="Изображение товара" width="140px" height="150px"></a>
+       <a href="#"> <img src="#" class="small_img" alt="Изображение товара" width="140px" height="150px"></a>
+       <a href="#"><img src="#" class="small_img" alt="Изображение товара" width="140px" height="150px"></a>
      </section>
      <section class="right_side">
        <span>Есть в наличии</span>
@@ -46,13 +44,8 @@
        для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания,
        увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подрком.
        </p>
-       <div class="price">
-         <span>3 900 РУБ.</span>
-       </div>
-       <a href="#" class="buy_item">
-         <div>Купить
-         </div>
-       </a>
+       <span>3 900 РУБ.</span>
+       <a href="#" class="buy_item">Купить</a>
        <h2 class="set_includes">В набо входят:</h2>
        <ul>
          <li>Средство для умывания (50 мл)</li>
@@ -63,36 +56,24 @@
        </ul>
      </section>
    </main>
-   <footer>
-     <section class="contact_information">
-       <p>БАРБЕРШОП "БОРОДИНСКИЙ" АДРЕС: Г.САНКТ-ПЕТЕРБУРГ, УЛ. Б.КОНЮШЕННАЯ, Д.19/8
-       КАК НАС НАЙТИ? ТЕЛЕФОН: +7(459)666-02-66 </p>
-     </section>
-     <section class="social_net">
-       <span>ДАВАЙТЕ ДРУЖИТЬ</span>
-        <a href="#">
-          <div class="vk">
-            <img src="#" alt="вк">
-          </div>
-        </a>
-        <a href="#">
-          <div class="fb">
-            <img src="#" alt="ФБ">
-          </div>
-        </a>
-        <a href="#">
-          <div class="inst" >
-            <img src="#" alt="Инстаграм">
-          </div>
-        </a>
-     </section>
-     <section class="develop">
-       <span>РАЗРАБОТАНО</span>
-       <a href="#">
-         <div class="b_Html_Academy">
-           HTMLACADEMY.RU
-         </div>
-       </a>
-     </section>
-   </footer>
+   <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
  </body>
