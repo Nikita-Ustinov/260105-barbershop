@@ -1,0 +1,16 @@
+body {
+  font-family: "PTSans NarrowBold";
+  font-size: 14px;
+  line-height: 24px;
+  line-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 30px;
+  line-weight: 42px;
+}
+
+.chosen {
+  color: #aba9a7;
+}
