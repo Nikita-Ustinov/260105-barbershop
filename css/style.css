@@ -4,6 +4,60 @@ body {
   line-height: 24px;
   line-weight: bold;
   color: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(0, 255, 0, 0.3);
+  min-height: 70px;
+  margin-bottom: 54px;
+  /*padding: 10px 20px;*/
+}
+
+.logo {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content_center {
+  margin: 0 auto;
+  width: 940px;
+  padding: 10px;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.main_menu {
+  float: left;
+  width: 620px;
+  background-color: rgba(0, 0, 255, 0.3);
+  /*padding: 0px;*/     почему у этого контейнера есть внутренние отступы? И как их обнулить?
+}
+
+li  {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.enter {
+  float: right;
+  width: 150px;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.content_conteiner { // почему не работает этот селектр?
+  background-color: rgba(100, 100, 100, 0.3);
+  width: 940px;
+  padding: 0 10px;
+  margin-left: 0 au;
 }
 
 h1 {
