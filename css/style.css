@@ -2,7 +2,7 @@ body {
   font-family: "PTSans NarrowBold";
   font-size: 14px;
   line-height: 24px;
-  line-weight: bold;
+  font-weight: bold;
   color: rgb(0, 0, 0);
   padding: 0;
   margin: 0;
@@ -12,14 +12,13 @@ header {
   background-color: rgba(0, 255, 0, 0.3);
   min-height: 70px;
   margin-bottom: 54px;
-  /*padding: 10px 20px;*/
 }
 
 .logo {
     display: block;
     float: left;
     margin-right: 20px;
-    margin-top: 13px;
+    margin-top: auto;
 }
 
 .clearfix::after {
@@ -29,20 +28,27 @@ header {
 }
 
 .content_center {
+  min-height: 32px;
   margin: 0 auto;
   width: 940px;
   padding: 10px;
   background-color: rgba(255, 0, 0, 0.3);
+  padding-top: 27px;
+}
+
+.main_menu ul {
+  margin: 0;
+  padding: 0;
 }
 
 .main_menu {
   float: left;
   width: 620px;
   background-color: rgba(0, 0, 255, 0.3);
-  /*padding: 0px;*/     почему у этого контейнера есть внутренние отступы? И как их обнулить?
+  padding: 0;
 }
 
-li  {
+.main_menu li  {
   display: inline-block;
   vertical-align: top;
 }
@@ -53,18 +59,137 @@ li  {
   background-color: rgba(0, 0, 255, 0.3);
 }
 
-.content_conteiner { // почему не работает этот селектр?
+.content_conteiner {
   background-color: rgba(100, 100, 100, 0.3);
   width: 940px;
   padding: 0 10px;
-  margin-left: 0 au;
+  margin: 0 auto;
 }
 
 h1 {
   font-size: 30px;
-  line-weight: 42px;
+  line-height: 42px;
+  margin-bottom: 19px;
 }
 
+.sub_menu ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 54px;
+}
+
+.sub_menu li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+.left_side {
+  width: 190px;
+  float: left;
+  background-color: rgba(200, 200, 200, 1);
+}
+
+.right_side {
+  float: right;
+  width: 720px;
+  padding: 0 5px;
+  background-color: rgba(200, 200, 200, 1);
+}
+
+.list_product {
+  font-size: 0;
+}
+
+.list_product article {
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  min-height: 286px;
+  margin-right: 20px;
+  background-color: rgba(10,10,10, 0.3);
+}
+
+.list_product article span {
+   display: inline-block;
+   width: 109px;
+   height: 43px;
+   background-color: rgba(15,15,15 0.5);
+}
 .chosen {
   color: #aba9a7;
+}
+
+.switch_page ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.switch_page li {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  background-color: rgba(0,0,0, 0.6);
+  color: white;
+  margin-top: 45px;
+  margin-right: 7px;
+}
+
+.main_footer {
+  min-height: 150px;
+  margin-top: 10px;
+  background-color: rgba(0, 255, 0, 0.3);
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.container {
+  min-height: 32px;
+  margin: 0 auto;
+  width: 940px;
+  padding: 0 10px;
+  background-color: rgba(100, 100, 100, 0.3);
+  /*padding-top: 27px;*/
+}
+
+.footer_contacts {
+  float: left;
+  width: 310px;
+  background-color: rgba(0, 0, 255, 0.3);
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.container p{
+  margin-top: 0;
+}
+
+.footer_social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+  background-color: rgba(0, 0, 255, 0.3);
+  margin: 0 auto;
+}
+
+.footer_copyright {
+  float: right;
+  width: 140px;
+  min-height: 90px;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.left_side_gallery {
+  width: 460px;
+  float: left;
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.right_side_item_page {
+  width: 390px;
+  float: right;
+  background-color: rgba(0, 0, 255, 0.3);
 }
